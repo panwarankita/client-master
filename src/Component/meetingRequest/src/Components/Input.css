@@ -1,0 +1,16 @@
+.inputfield {
+  border: none;
+  border-bottom: 2px solid #949494;
+  width: 300px;
+  padding: 7px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+input[type="text"]::placeholder {
+  color: #3c5898;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}

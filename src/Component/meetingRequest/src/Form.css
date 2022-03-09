@@ -1,0 +1,38 @@
+.Formcontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.228),
+    0px 0px 88px rgba(0, 0, 0, 0.18);
+  padding: 30px 80px;
+  background-color: whitesmoke;
+}
+
+.headingg {
+  /* margin-right: 4em; */
+  display: inline-block;
+  font-size: 24px;
+  color: #3c5898;
+}
+
+.Maincontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  /* height: 100%;
+  width: 100% ; */
+}
+
+#img {
+  width: 600px;
+  height: 400px;
+  margin-right: 4rem;
+  margin-top: 2em;
+}
+
+/* #meetBack{
+  height: 150%;
+  width: 150%;
+  background-size: cover;
+  background-color: white;
+} */

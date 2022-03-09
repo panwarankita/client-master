@@ -1,0 +1,54 @@
+/* h1{
+    text-align: center;
+    color: #3c5898;
+    margin-top: 1.2em; 
+    font-family: 'roboto', sans-serif;
+    
+    }
+    
+    .container{
+       max-width: 80%;
+        margin-top: 80px;
+        font-family: 'roboto', sans-serif;
+        
+    }
+    .row{
+        margin-left: 5em;
+        margin-bottom: 18em;
+    }
+
+
+    .trnCardBody{
+        
+        width: 26em;
+        margin-bottom: 20px; 
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .png1{
+        width: 80px;
+        margin-left: 6em;
+        padding-bottom: 6px;
+    
+    }
+    
+     */
+
+     #soon{
+         text-align: center;
+         color: grey;
+         position: fixed;
+        left: 42%;
+        top: 36%;
+         font-size: 64px;
+         /* background-size: cover; */
+     }
+
+     /* #soon:hover{
+        font-size: 64px;
+        margin-right: 30px;
+        transition: 3s;
+     } */
+
+

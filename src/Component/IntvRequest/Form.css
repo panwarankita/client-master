@@ -1,0 +1,112 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 80%; */
+  width: auto;
+  /* padding: 30px; */
+  border-radius: 10px;
+  /* border: .1px solid #838383; */
+  /* -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.76);
+-moz-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.76);
+box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.76); */
+
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  background-color: #294870;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+}
+
+.inputControl {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.inputField {
+  border: none;
+  border-bottom: 2px solid #949494;
+  width: 200px;
+  padding: 7px;
+}
+
+input[type="text"],
+[type="time"]:focus {
+  outline: none;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}
+
+label {
+  color: #3c5898;
+  font-size: small;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  width: 200px;
+  border-radius: 10px;
+  font-size: small;
+  resize: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(83, 83, 194);
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 12px 30px;
+  border-radius: 2px;
+  /* width: 200px; */
+}
+
+
+@media only screen and (max-width: 500px) {
+  .mainContainer {
+    height: auto;
+  }
+
+  .formContainer {
+    margin: 50px 0;
+    width: 80%;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,47 @@
+#contentt{
+    /* background-color: tomato; */
+    width: 776px;
+    height: 532px;
+    margin: 70px 0px 0px 250px;
+    box-shadow: 1px 3px 5px 1px gray;
+    justify-content: center;
+    font-family: "roboto";
+    
+}
+.notifyy{
+    /* background-color: thistle; */
+    width: 655px;
+    height: 140px;
+    margin: 57px  0px 0px 30px;
+    box-shadow: 1px 3px 5px 1px gray;
+    color: #3c5898;
+    padding: 25px;
+    font-family: "roboto";
+
+}
+
+.errorboxx{
+    
+    width:  655px;
+    height: 140px;;
+    margin: 47px  0px 0px 30px;
+    box-shadow: 1px 3px 5px 1px gray;
+    color: #3c5898;
+    padding: 25px;
+    font-family: "roboto";
+    
+}
+.notificationn{
+    margin: 27px;
+    justify-content: center;
+    color: #3c5898;
+    font-family: "roboto";
+    text-decoration: underline;
+    
+}
+#notii{
+    padding-top: 25px;
+    color: #3c5898
+
+
+}

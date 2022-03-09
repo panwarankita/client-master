@@ -1,0 +1,41 @@
+ .mainontainer{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  /* border: 2px solid red; */
+ }
+
+ .inputfields{
+  border: none;
+  border-bottom: 2px solid #949494;
+  width: 200px;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+
+ .overview{
+  margin-top: 115px;
+  margin-left: 16.5%;
+  height: 100% ;
+  background-color: white;
+  /* position: fixed;    */
+ }
+
+ .overview::-webkit-scrollbar {
+  display: none;
+}
+
+.Link{
+  text-decoration: none;
+  color: white;
+}
+.Link:hover{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  
+  transition-duration: 1s;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queris </title>
+    <Style>
+        .box {
+            font-size: 70px;
+            background-color: darkcyan;
+            color: black;
+            text-align: center;
+            display: none;
+        }
+
+        @media (max-width:375px) {
+            #iphone {
+                display: block;
+                background-color: yellow;
+            }
+        }
+
+        @media (min-width :375px) and (max-width:768px) {
+            #ipad {
+                display: block;
+                background-color: silver;
+                color: black;
+            }
+        }
+
+        @media (min-width:768px) and (max-width:1440px) {
+            #DesktopComputer {
+                display: block;
+                border: 5px solid black;
+                color: blue;
+                background-color: darkslategrey;
+            }
+        }
+        @media (min-width:1440px) and (max-width:4000px) {
+            #Wide{
+                display: block;
+                border: 5px solid black;
+                color: rgb(255, 0, 0);
+                background-color: darkslategrey;
+            }
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="box" id="iphone">iphone</div>
+    <div class="box" id="ipad">ipad</div>
+    <div class="box" id="DesktopComputer">Computer</div>
+    <div class="box" id="Wide">Wide Screen Pc</div>
+</body>
+
+</html>
