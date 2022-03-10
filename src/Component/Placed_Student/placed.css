@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  #std{
+    padding-top: 50px;
+    text-align:center;
+    font-size: 65px;
+    color: #3c5898;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45rem;
+    /* color: #3c5898; */
+  }
+  
+  #profile-pic-divv{
+    height: 125px;
+    width: 125px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  #containers {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 58vh;
+    padding: 10rem;
+  }
+  #file{
+    display: none;
+    overflow: hidden;
+  }
+  #uploadBtn{
+    height: 40rem;
+    width: absolute;
+    position:absolute;
+    bottom: 0;
+    transform: translateX(-163%);  
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    line-height: 75%;
+    font-family: sans-serif;
+  }
+  #mini-containers {
+    box-shadow: 0 8px 15px 0 rgb(0,0,0);
+    max-width: 300px;
+    width: 100%;
+    color: #fff;
+    padding: 2rem;
+    background-color: #3c5898;
+    flex-wrap: wrap;
+    font-family:'Roboto', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #inputtype {
+    width: 60%;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #3c5898;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #fff;
+  }
+  #inputtype:focus{
+    outline: none;
+  }
+  ::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+  
+  img {
+    vertical-align: middle;
+    height: 8rem;
+    border-radius: 0;
+    
+  }
+  @media (max-width: 1000px) {
+    input[type=text]{
+      width: 9rem;
+      flex-wrap: wrap;    
+    }
+    #containers {
+      flex-wrap: wrap;
+      max-width: 600rem;
+    }
+    #mini-containers {
+      max-width: 600rem;
+      width: 19rem;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 1000px){
+    #uploadBtn{
+      max-width: 600rem;
+    }
+    #std{
+      max-width: 23rem;
+    }
+    .Hr{
+      max-width: 25rem;
+    }
+  }
+  }
+  
+  
+  

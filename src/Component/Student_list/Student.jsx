@@ -13,12 +13,11 @@ function Student() {
 
 
   useEffect(() => {
-    // https://api.github.com/users
-    // https://iteg.herokuapp.com/api/Student_Reg/Registation
-    fetch("https://api.github.com/users").then((result) => {
+    
+    fetch("https://iteg.herokuapp.com/api/Student_Reg/List").then((result) => {
       result.json().then((response) => {
         console.log("result", response)
-        setData(response);
+        setData(response.data);
       });
     });
   }, []);
@@ -52,11 +51,11 @@ function Student() {
 
               <tr className="border1" >
 
-                <td>{item.node_id}</td>
-                <td>{item.node_id}</td>
-                <td>{item.node_id}</td>
-                <td>{item.node_id}</td>
-                <td>{item.node_id}</td>
+                <td>{item.FirstName}</td>
+                <td>{item.Email}</td>
+                <td>{item.LastName}</td>
+                <td>{item.Course}</td>
+                <td>{item.Role}</td>
                 <td><span><Link to="/editProfile"><BsPencil /></Link>&nbsp;&nbsp;&nbsp;<RiDeleteBin6Line /></span></td>
                 <td></td>
                 <td><button id="view">View</button></td>

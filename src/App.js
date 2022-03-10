@@ -16,6 +16,7 @@ import ListOfCompanies from './Component/Mayank/Npage/Comps';
 import MeetingRequest from './Component/meetingRequest/src/App';
 import TrainingList from './Component/Training_List/card';
 import Intvrequest from './Component/IntvRequest/Form';
+// import Placed from "./Component/Placed_Student/placed";
 
 
 
@@ -25,8 +26,22 @@ function App() {
       {/* <Nav_side /> */}
 
       <div class="col-10 overview">
-        <Routes>
-          <Route exact path="" element={<TandP />} />
+
+        
+
+          {/* <Route exact path='' element={<TandP />} />
+          <Route exact path='/main' element={<TandP />} />
+          <Route exact path='/listOfStudent' element={<Student />} />
+          <Route exact path='/notification' element={<Notification />} />
+          <Route exact path='/editProfile' element={<EditP />} />
+          <Route exact path='/listOfCompanies' element={<ListOfCompanies />} />
+          <Route exact path='/sendRequest' element={<Intvrequest />} />
+          <Route exact path='/meetingRequest' element={<MeetingRequest />} />
+          <Route exact path='/trainingList' element={<TrainingList />} />
+          <Route exact path='/Placedstudent' element={ <Placed/> } />
+           */}
+           <Routes>
+          <Route exact path='' element={<TandP />} />
           <Route exact path="/main" element={<TandP />} />
           <Route exact path='/listOfStudent' element={<Student />} />
           <Route exact path='/notification' element={<Notification />} />
@@ -35,7 +50,11 @@ function App() {
           <Route exact path='/sendRequest' element={<Intvrequest />} />
           <Route exact path='/meetingRequest' element={<MeetingRequest />} />
           <Route exact path='/trainingList' element={<TrainingList />} />
+          {/* <Route exact path='/Placedstudent' element={ <Placed/> } /> */}
         </Routes>
+        
+        
+        
 
       </div >
     </div>

@@ -42,7 +42,8 @@ const TandP = () => {
 
           <div className="div3">
             <BsShieldFillPlus className="pro"></BsShieldFillPlus>
-            <h6 className="text">List Of Placed Student</h6>
+            <h6 className="text">
+              <Link class="Link" to="/Placedstudent">List Of Placed Student</Link></h6>
           </div>
 
           <div className="div3">

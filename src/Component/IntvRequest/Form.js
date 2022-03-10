@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-pascal-case */
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 // import Button from "./Components/Button";
 import "./Form.css";
 import Nav_side from "../Nav_side";
@@ -85,7 +86,7 @@ function Intvrequest() {
             <textarea className="textarea" placeholder="Short Message" name="sortMsg" value={intvRequest.sortMsg} onChange={handleChange} />
           </div>
         </div>
-        <button className="btn" onclick={SendRequest()}>Send</button>
+        <button  className="btn" onclick={SendRequest()}> <Link class="Link" to="/notification">Send</Link></button>
       </div>
     </>
   );
